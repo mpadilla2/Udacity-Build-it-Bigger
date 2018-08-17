@@ -8,7 +8,7 @@ import android.view.MenuItem;
 // Reference: Used Udacity 4.04 code as code basis for entire jokedemo
 public class JokesterActivity extends AppCompatActivity {
 
-    public static String JOKE_KEY = "Joke key";
+    public static final String JOKE_KEY = "Joke key";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -7,8 +7,8 @@ import java.util.Random;
 public class JavaJokester {
 
     // Reference: https://developer.android.com/reference/java/util/Random
-    private Random randomGen;
-    private ArrayList<String> mJokes;
+    private final Random randomGen;
+    private final ArrayList<String> mJokes;
 
     // Reference: Jokes are from - https://academictips.org/funny-jokes/42-funny-one-liners/
     public JavaJokester(){

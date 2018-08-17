@@ -1,6 +1,5 @@
 package com.udacity.gradle.builditbigger;
 
-import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.util.Log;
 
@@ -13,7 +12,7 @@ import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
 import java.io.IOException;
 
 // Reference: https://goo.gl/2Adjir
-public class JokeAsyncTask extends AsyncTask<Void, Void, String> {
+class JokeAsyncTask extends AsyncTask<Void, Void, String> {
 
     private static final String JOKE_ASYNTASK_EXCEPTION_NOTICE = "Something went wrong. Check the logs.";
     // pc ip address for testing with phone

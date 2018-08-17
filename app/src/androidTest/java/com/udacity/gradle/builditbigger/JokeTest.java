@@ -25,7 +25,7 @@ import static org.hamcrest.Matchers.not;
 // Reference: https://developer.android.com/training/testing/espresso/setup
 // Reference: https://developer.android.com/training/testing/espresso/cheat-sheet
 @RunWith(AndroidJUnit4.class)
-public class JokeTest {
+class JokeTest {
 
     @Rule
     public IntentsTestRule<MainActivity> mainActivityActivityTestRule = new IntentsTestRule<>(MainActivity.class);
